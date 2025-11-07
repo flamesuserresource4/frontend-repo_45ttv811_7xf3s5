@@ -5,7 +5,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   const navItems = [
-    { label: 'Home', href: '#' },
+    { label: 'Home', href: '#home' },
     { label: 'Rooms', href: '#rooms' },
     { label: 'Location', href: '#location' },
     { label: 'Contact', href: '#contact' },
@@ -15,7 +15,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-white/70 bg-white/80 border-b border-black/5">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <a href="#" className="inline-flex items-center gap-2">
+          <a href="#home" className="inline-flex items-center gap-2">
             <div className="h-9 w-9 rounded-full bg-gradient-to-br from-sky-500 to-indigo-600 grid place-items-center text-white font-bold">I</div>
             <span className="text-xl font-semibold tracking-tight">ikuae Hotel</span>
           </a>

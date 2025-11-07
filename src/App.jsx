@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Rooms from './components/Rooms'
+import Location from './components/Location'
 import Contact from './components/Contact'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Hero />
         <Rooms />
+        <Location />
         <Contact />
       </main>
       <footer className="border-t border-black/5 py-10">
